@@ -1,0 +1,133 @@
+#big-div5{
+    background-color: pink;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+    gap: 10px;
+}
+#smalldiv-5{
+    background-color: aqua;
+    width: 500px;
+    padding-right: 60px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+#part5-img{
+    height: 590px;
+    width: 440px;
+}
+#smalldiv-5{
+    #head1{
+        font-family: Bricolage Grotesque,Sans-serif;
+        font-size: 42px;
+        font-weight: 400;
+        line-height: 39px;
+        color: #FFFFFF;
+        margin-top: 0;
+        margin-bottom: 0;
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+}
+#smalldiv-5{
+    #head2{
+        font-family: Bricolage Grotesque,Sans-serif;
+        color: #FFFFFF;
+        margin-top: 0;
+        margin-bottom: 0;
+        padding-top: 0;
+        padding-bottom: 0;
+        font-size: 32px;
+    }
+}
+#smalldiv-5{
+    #para{
+        margin-top: 0;
+        margin-bottom: 0;
+        padding-top: 0;
+        padding-bottom: 0;
+        font-family: "Outfit", Sans-serif;
+        font-size: 18px;
+        font-weight: 300;
+        font-style: italic;
+        line-height: 27px;
+        color: #DCDCDC;
+    }
+}
+#element-icon-box-big{
+    display: flex;
+    gap: 20px;
+}
+.element-icon-box{
+    display: inline-block;
+    width: 220px;
+    height: 60px;
+    padding:7px ;
+    background-color: #69696942;
+    padding: 7px 7px 7px 7px;
+    border-radius: 10px 10px 10px 10px;
+    box-shadow: 0px 0px 10px -5px rgba(0, 0, 0, 0.5)
+}
+.element-icon-box h3{
+    font-family: "Outfit", Sans-serif;
+    font-size: 16px;
+    color:#EBEBEB ;
+    margin-top: 8px;
+    margin-bottom: 0;
+}
+.element-icon-box p{
+    color: #FFFFFF;
+    font-family: "Outfit", Sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+#smalldiv-5 {
+    #limited-time-heading{
+        display: inline-block;
+        margin-top: 0;
+        margin-bottom: 0;
+        padding-top: 0;
+        padding-bottom: 0;
+        font-family: "Poppins", Sans-serif;
+        font-size: 19px;
+        font-weight: 400;
+        line-height: 14px;
+        color: #FFFFFF;
+        text-align: left;
+    }
+}
+.button-orange-5 button{
+    background-color: #E85D33;
+    width: 100%;
+    font-family: "Bricolage Grotesque", Sans-serif;
+    font-size: 28px;
+    font-weight: 700;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+.button-orange-5 a{
+    text-decoration: none;
+    color: white;
+    width: 100%;
+}
+#limited-seat-5{
+    margin-top:0;
+    margin-bottom: 0;
+    font-family: "Mukta", Sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    color: white;
+    padding-top: 0;
+    padding-bottom: 0;
+    text-align: left;
+}

@@ -1,0 +1,311 @@
+
+*{    padding: 0;
+    margin: 0;
+    color: white;
+}
+
+#navbar{
+  width: 100%;
+    background-color:#1A1A2E ;
+    text-align: center;
+    letter-spacing: 0.7px;
+    font-family: "Montserrat", Sans-serif;
+    font:bold;
+}
+#navbar h2{
+  font-size: 22px ;
+  padding-top: 19px;
+  padding-bottom: 19px;
+  color: white;
+  margin: 0;
+}
+.bigdiv{
+  padding-bottom: 40px;
+  background-color: chocolate;
+  width: 100%;
+  height: 800px;
+}
+.smalldiv{
+  margin-top: 60px;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+}
+.content {
+  display: inline-block;
+  display: flex;
+  justify-content: center;
+}
+#content1{
+  height: 800px;
+  width: 400px;
+  background-color:chartreuse;
+  padding-top: 10px;
+  padding-right: 20px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+#content2{
+  height: 800px;
+  width: 400px;
+  background-color:darkblue;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.text-white {
+  color: white;
+}
+
+.text-yellow {
+  color: #FFE789;
+}
+
+#head1{
+  display: inline-block;
+  text-transform: capitalize;
+  font-family: "Bricolage Grotesque", Sans-serif;
+  font-size: 42px;
+  font-weight: 700px;
+  text-align: left;
+  padding: 10 20 10 10px;
+  font-weight: 700;
+  text-align: left;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 1.5;
+  margin: 0;
+  padding: 0;
+}
+#head2{
+  display: inline-block;
+  font-size: 18px ;
+  font-family: "Montserrat", Sans-serif;
+  font-weight: 600;
+  font-style: italic;
+  line-height: 29px;
+  text-align: left;
+  color: brown;
+  margin: 0;
+  padding: 0;
+  /* color: #e0e0e0; */
+}
+
+.time{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.ele-small{
+  display: inline-block;
+}
+.ele-container{
+  background-color: crimson;
+}
+
+#astro{
+  padding-top: 40px;
+  display: flex;
+}
+
+.astro-small{
+  padding: 10px;
+}
+.astro-small h3{
+  font-size: 24px;
+  margin-top: 8px;
+  margin-bottom: 5px;
+    color: #FFFFFF;
+    font-family: "Montserrat", Sans-serif;
+    font-weight: 700;
+    line-height: 31px;
+    letter-spacing: 1.9px;
+
+}
+.astro-small p{
+  font-size: 16px;
+  color: #B2B2B2;
+    font-family: "Outfit", Sans-serif;
+    font-weight: 300;
+    letter-spacing: -0.2px;
+
+}
+#heading-image{
+  height: 120px;
+  width: 120px;
+}
+
+#content2{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+.image-main {
+  position: relative; /* Make the overlay div a positioning context for the play button */
+  background-size: cover; /* Ensures the background image covers the entire div */
+  background-position: center; /* Centers the background image */
+  height: 300px; /* Adjust the height as needed */
+  width: 100%; /* Makes the div full width */
+  border: 2px solid goldenrod; /* Example border */
+  border-radius: 24px;
+  box-sizing: border-box; /* Prevents border from extending outside the container */
+}
+#video{
+  width: 100%;
+}
+
+.play{
+  .elementor-custom-embed-play {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); /* Centers the play button */
+    background-color: rgba(0, 0, 0, 0.5); /* Optional: Add a semi-transparent background for better contrast */
+    padding: 10px;
+    border-radius: 50%; /* Make the button circular */
+    color: white; /* Change play button color */
+    font-size: 24px; /* Adjust size of the play icon */
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+.content2 h2{
+  font-family: "Montserrat", Sans-serif;
+  font-size: 25px;
+  font-weight: 700;
+  color: #FFFFFF;
+  margin: 0;
+  padding: 0;
+}
+
+.count-time{
+  height:35px;
+  width: 35px;
+  border-radius: 50%;
+  padding: 20px;
+  margin-left:10px;
+  margin-right: 10px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+
+  background-color: transparent;
+    text-align: center;
+    background-image: linear-gradient(180deg, #F4F1DE 0%, #FFE7A9 100%);
+    border-style: solid;
+    border-width: 1px 1px 1px 1px;
+    border-color: #845F0B;
+    border-radius: 100px
+}
+.num{
+  color: #000000;
+  font-family: "Roboto Slab", Sans-serif;
+  font-size: 30px;
+  font-weight: 400;
+}
+.alpa{
+  color: #6D6D6D;
+    font-family: "Roboto Slab", Sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+}
+#cont-2last-heading-1{
+  font-family: "Mukta", Sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 0px;
+    color: #FFFFFF;
+    margin: 0;
+    padding: 0;
+}
+select{
+  color: black;
+}
+#thirdcontent{
+  color: #e0e0e0;
+  height: 760px;
+}
+a{
+    margin-right:200px;
+    text-decoration: none;
+}  
+div{
+    display: inline-block;
+}
+#first{
+    background-color:no
+}
+body{
+  background-image: url(back.jpg);
+  background-size: cover;
+}
+
+.button-orange-1 button{
+  background-color: #E85D33;
+  font-family: "Bricolage Grotesque", Sans-serif;
+  font-size: 28px;
+  font-weight: 500;
+  border-radius: 15px;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  padding-left: 12px;
+  padding-right: 12px;
+  width: 100%;
+  height: 100px;
+}
+.button-orange-1 a{
+  text-decoration: none;
+}
+.button-orange-text-1{
+  color: white;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+#anchor-tag-1{
+  text-align: center;
+}
+
+
+
+
+
+
+
+
+
+/* 
+#outer_footer{
+  width: 100%;
+  background-color: #333333;
+  text-align: center;
+  color: #808080;
+}
+#inner_footer{
+  width: 100%;
+  background-color: #000000;
+  font-size: 22px;
+  font-family: "Mukta", Sans-serif;
+  font-weight: 500;
+}
+.time-number{
+  font-size: 26px;
+  font-family: "Roboto Slab",Sans-serif;
+  font-weight: bolder;
+}
+.time-label{
+  font-size: 16px;
+  font-family: "Roboto Slab",Sans-serif;
+  padding-right: 5px;
+} */

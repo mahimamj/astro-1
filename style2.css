@@ -1,0 +1,98 @@
+h2 {
+    padding-top: 60px;
+    padding-bottom: 25px;
+    font-family: "Bricolage Grotesque", sans-serif;
+    color: black; /* Default color for text */
+    text-align: center; /* Center-align the text */
+    margin-top: 50px; /* Add some margin to the top */
+}
+
+span {
+    display: inline; /* Make sure spans do not break the line */
+}
+
+.black-text {
+    text-transform: capitalize;
+    color: black;
+    font-size: 42px;
+    padding-top: 60px;
+}
+.purple-text {
+    color: purple;
+    font-size: 42px;
+    padding-top: 200px;
+}
+#second-portion{
+    background-color:blueviolet;
+    margin-top: 0;
+    position: absolute;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#second-portion-one{
+    background-color:aquamarine;
+    padding-bottom: 60px;
+    width: 1040px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 0;
+}
+#second-portion-one h2{
+    margin-top: 0;
+}
+.box{
+    padding: 18px;
+    display: inline-block;
+    height: 300px;
+    width: 280px;
+    background-color: #fff6f7;
+    border-radius: 24px;  /* Apply border radius */
+    border: 2px solid black; 
+}
+ .box111 h3{
+    margin-top: 8px;
+    margin-bottom: 15px;
+    font-size: 18px;
+    text-align: center;
+    text-size-adjust: 100%;
+    color: rgb(211,68,21);
+    display: block;
+    font-family: "Montserrat",sans-serif;
+    font-weight: 700px;
+    height: 43.2px;
+    width: 247px; }
+ .box111 p{
+    font-family: "Outfit", sans-serif;
+    font-size: 16px;
+    line-height: 28px;
+    font-weight : 400;
+    margin-top: 0;
+    margin-bottom: 0;
+    color: black;
+ }
+.heading-image{
+    height: 110px;
+    width: 110px;
+    margin-bottom: 29px;
+    background-size: cover;
+    background-position: center;
+}
+.box111 {
+    display: flex;
+    flex-direction: column; /* Stack the image, heading, and paragraph vertically */
+    align-items: center;    /* Center align horizontally */
+    justify-content: center; /* Center align vertically */
+    text-align: center;  /* Ensure the text is centered */
+    height: 100%; /* Ensure the div takes the full height of the box */
+}
+.all-five {
+    background-color: chocolate;
+    display: flex;
+    justify-content: space-between; /* Distribute space evenly between items */
+    gap: 10px; /* Adds space between each div */
+    flex-wrap:wrap; /* Allow items to wrap to the next line when they don't fit */
+    justify-content: center;
+    padding:10px;
+}

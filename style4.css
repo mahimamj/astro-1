@@ -1,0 +1,133 @@
+.Forth-Part{
+    width: 100%;
+    background-color: cornflowerblue;
+    padding-left: 10px;
+    padding-right: 10px;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+}
+
+#inner-forth{
+    padding-top: 60px;
+    padding-bottom: 60px;
+    background-color:burlywood;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 850px;
+    gap: 20px;
+}
+#first-div-head{
+    padding-bottom: 25px;
+
+}
+#purple-heading-span{
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 42px;
+    font-family: "Bricolage Grotesque", Sans-serif;
+    font-weight: 700;
+    text-transform: capitalize;
+    line-height: 50px;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+#purple-heading-span span{
+    color: #4B0082;
+}
+.orange-span{
+    padding-left: 5px;
+}
+.orange-span span{
+    color:#E85D33;
+    font-weight: 700;
+}
+.option4 p{
+    color: black;
+}
+#inner-forth h2{
+    color:black;
+}
+
+.work-pillor4{
+    background-color: aquamarine;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 10px;
+    justify-content: space-between; /* Distribute space evenly between items */
+    gap: 10px; 
+    height: 1140;
+    
+}
+.work-pillor4 .option4{
+    background-color: white;
+    display: inline-block;
+    padding: 10px;
+    width: 390px;
+    border-radius: 5px;
+    display: flex;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+}
+.option4{
+    display: flex;
+    align-items: center;
+    font-family: "Bricolage Grotesque", Sans-serif;
+    font-size: 17px;
+    font-weight: 400;
+    text-transform: capitalize;
+    padding-left: 5px;
+}
+
+.inner-option4{
+    display: flex;
+    flex-direction: column;
+}
+.inner-option4 h3{
+    margin-top: 8px;
+    margin-bottom: 10px;
+}
+.inner-option4 p{
+    font-size: 16px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.button-orange-4 button{
+    margin-top: 0;
+    background-color: #E85D33;
+    font-family: "Bricolage Grotesque", Sans-serif;
+    font-size: 28px;
+    font-weight: 700;
+    border-radius: 15px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    padding-left: 12px;
+    padding-right: 12px;
+    width: 440px;
+    height: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.button-orange-4 a{
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+}
+#button-orange-text-4{
+    color: white;
+}
+#limited-seat-4{
+    margin-top:0;
+    margin-bottom: 0;
+    font-family: "Mukta", Sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    color: #000000;
+    padding-top: 0;
+    padding-bottom: 0;
+}

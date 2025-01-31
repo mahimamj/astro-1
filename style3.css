@@ -1,0 +1,121 @@
+.Third-Part{
+    width: 100%;
+    background-color: black;
+    padding-left: 10px;
+    padding-right: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+#inner-third{
+    padding-bottom: 60px;
+    background-color:brown;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 850px;
+    gap: 20px;
+    padding-top: 0;
+    margin: 0;
+}
+#inner-third span{
+    color: #FFE7A9;
+}
+#inner-third h2{
+    color: white;
+    margin-top: 0;
+}
+
+.work-pillor{
+    background-color: aquamarine;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 10px;
+    justify-content: space-between; /* Distribute space evenly between items */
+    gap: 10px; 
+}
+.work-pillor .option{
+    background-color: #c78585cc;
+    display: inline-block;
+    padding: 10px;
+    height: 100px;
+    width: 390px;
+    border-radius: 5px;
+    display: flex;
+}
+.option{
+    display: flex;
+    align-items: center;
+}
+
+.inner-option{
+    display: flex;
+    flex-direction: column;
+}
+.inner-option h3{
+    margin-top: 8px;
+    margin-bottom: 10px;
+}
+.inner-option p{
+    font-size: 16px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.part-3image{
+    height: 80px;
+    width: 80px;
+    background-size: cover;
+    margin-right: 10px;
+}
+.button-orange-3 button{
+    margin-top: 0;
+    background-color: #E85D33;
+    font-family: "Bricolage Grotesque", Sans-serif;
+    font-size: 28px;
+    font-weight: 700;
+    border-radius: 15px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    padding-left: 12px;
+    padding-right: 12px;
+    width: 440px;
+    height: 90px;
+    display: flex;
+    justify-content: center;
+    
+}
+.button-orange-3 a{
+    text-decoration: none;
+    margin: 0;
+}
+#orange-register-3 span{
+    color: white;
+    margin: 0;
+
+}
+#inner-third{
+    #limited-seat-3{
+        display: inline-block;
+        margin-top: 0;
+        margin-bottom: 0;
+        font-size: 18px;
+        font-weight: 400;
+        color:white;
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+}
+#orange-register-3{
+    display: inline-block;
+    width: 410px;
+    position: static;
+}
+#limited-seat-3{
+    color: white;
+    margin: 0;
+    font-family: "Mukta", Sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    padding: 0;
+}
